@@ -29,6 +29,10 @@ public class Main {
         } else {
             System.out.println("ERROR!!! Flight plan already set. Landing on the Plain");
         }
+
+        // Run the MarsExpedition
+        MarsExpedition expedition = new MarsExpedition();
+
         // Run the GuessingGame
         GuessingGame guessingGame = new GuessingGame();
 

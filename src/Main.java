@@ -38,6 +38,9 @@ public class Main {
 
         // Reassign the value of landing by invoking landingCheck method
         landing = landingCheck(10); // Replace 10 with any desired number of minutes until landing
+
+        // Run the FindingsList
+        FindingsList findingsList = new FindingsList();
     }
 
     public static boolean landingCheck(int minutesLeft){

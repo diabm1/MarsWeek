@@ -46,7 +46,7 @@ public class Main {
                 System.out.println("Right");
             } else if (minute % 3 == 0) {
                 System.out.println("Left");
-            } else if (minute % 2 == 0 && minute % 3 == 0) {
+            } else if (minute % 3 == 0 && minute % 2 == 0) {
                 System.out.println("Keep Center");
             } else {
                 System.out.println("Calculating");
